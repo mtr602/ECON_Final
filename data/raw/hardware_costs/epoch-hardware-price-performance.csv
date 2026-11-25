@@ -1,0 +1,5 @@
+Hardware,Release price including server hardware (USD),Inflation-adjusted release price (2022 USD),Perfromance (FLOP/s),FLOP/s per dollar (inflation-adjusted)
+P100,"$16,000","≈$15,000",2 x 10^13 (FP16),1.3 x 10^9
+V100,"$20,000","≈$19,000",1 x 10^14 (TF32),6.7 x 10^9
+A100,"$25,000","≈$24,000",3 x 10^14 (TF32/FP16),1.3 x 10^10
+H100,"$44,000","≈$44,000",1 x 10^15 (TF16),2.2 x 10^10

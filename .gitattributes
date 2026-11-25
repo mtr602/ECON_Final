@@ -1,0 +1,4 @@
+# Preserve original CSV bytes and CRLF line endings for checksum verification.
+data/raw/electricity/electricity-exports-and-imports-*.csv -text whitespace=cr-at-eol
+data/raw/exchange_rates/*.csv -text whitespace=cr-at-eol
+data/raw/hardware_costs/epoch-hardware-price-performance.csv -text whitespace=cr-at-eol

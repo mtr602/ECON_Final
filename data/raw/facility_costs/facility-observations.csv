@@ -1,0 +1,8 @@
+source_id,metric,geography_or_scope,reference_period,lower,upper,unit,evidence_type,limitation
+turner,Construction cost per IT capacity,"Toronto, Canada",2026,11.76,11.76,USD/W,industry benchmark,Typical 60 MW design
+turner_method,Liquid-cooled construction premium,United States,2026,7,10,percent,industry benchmark,Total construction premium versus air-cooled designs of similar IT load; no standalone cooling cost
+cbre,Mechanical share of total build cost,Germany presentation,2025,20,20,percent,industry benchmark,Mechanical category broader than cooling
+cbre,Electrical share of total build cost,Germany presentation,2025,40,40,percent,industry benchmark,"Share of typical total build cost, no independent Québec unit cost"
+equinix,Buildings useful life,Equinix portfolio,2025,12,60,years,accounting estimate,Depreciation range
+equinix,Core systems useful life,Equinix portfolio,2025,3,40,years,accounting estimate,Depreciation range
+coreweave,Data centre equipment and leasehold improvements,CoreWeave portfolio,2025,,12,years,accounting estimate,Shorter of remaining lease term or estimated useful life of up to 12 years

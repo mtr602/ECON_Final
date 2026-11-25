@@ -1,0 +1,6 @@
+source_id,metric,scope,observation_date,value,unit,evidence_type,limitation
+thinkmate,Eight-GPU server acquisition quote,8 H100 SXM system,2025-01-10,300107,USD/server,documented vendor quote,A dated quote with no observed transaction or installation charge
+directdial,Networking component posted price,"NVIDIA QM9700 switch, 920-9B210-00FN-0M0",2026-11-25,33025,USD/switch,posted vendor price,"Special order, no per-server deployment cost"
+directdial,Networking component MSRP,"NVIDIA QM9700 switch, 920-9B210-00FN-0M0",2026-11-25,44462,USD/switch,posted vendor MSRP,No deployment cost
+epoch,Release price including server/interconnect allocation,"H100, 1/8 of a DGX server node",2022-10,44000,USD/GPU,historical release benchmark,Bundled hardware price; no independent network/installation component
+coreweave,Technology equipment useful life,Company accounting policy,2025,6,years,observed financial disclosure,"Portfolio estimate, no H100-specific service-life observation"

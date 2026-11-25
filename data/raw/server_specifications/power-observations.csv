@@ -1,0 +1,13 @@
+source_id,metric,configuration_or_scope,condition,value,unit,qualifier,evidence_type
+nvidia,GPU count,DGX H100,server specification,8,GPUs/server,=,manufacturer specification
+nvidia,Maximum rated power,DGX H100,server specification,10.2,kW,approximately,manufacturer specification
+latif,GPU count,HGX H100,measured server configuration,8,GPUs/server,=,empirical study
+latif,Idle node power,8-GPU HGX H100,"idle, median",1.86,kW,=,empirical study
+latif,Busy node power,8-GPU HGX H100,"ResNet batch 512, median",4.68,kW,=,empirical study
+latif,Busy node power,8-GPU HGX H100,"ResNet batch 4096, median",6.26,kW,=,empirical study
+latif,Busy node power,8-GPU HGX H100,"Llama2-13b, median",7.92,kW,=,empirical study
+latif,Busy node power,8-GPU HGX H100,"GPU-only stress, median",7.97,kW,=,empirical study
+latif,Busy node power,8-GPU HGX H100,"GPU and CPU stress, median",8.43,kW,=,empirical study
+latif,Busy node power,8-GPU HGX H100,"GPU and CPU stress, maximum observed",8.48,kW,=,empirical study
+uptime,PUE,Global data centre survey,2025 mean annual PUE,1.56,ratio,=,industry survey benchmark
+cologix,PUE,"Cologix MTL10-H, Longueuil, Québec",annualized operator specification,1.3,ratio,less than,operator specification

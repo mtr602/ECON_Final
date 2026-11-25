@@ -1,0 +1,30 @@
+category,variable,status,unit,source_ids,repository_location,limitation
+electricity,Monthly export volume,available,MWh,cer_monthly,data/raw/electricity/electricity-exports-and-imports-monthly.csv,132 months of Québec export totals and published U.S. destination rows.
+electricity,Monthly export revenue,available,CAD,cer_monthly,data/raw/electricity/electricity-exports-and-imports-monthly.csv,CER reported total value for international electricity trade.
+electricity,Export destination,available,U.S. state or market,cer_monthly,data/raw/electricity/electricity-exports-and-imports-monthly.csv,Reporting geography may differ from final consumption. Confidentiality may limit destination detail.
+electricity,Export price,available,CAD/MWh,cer_monthly,data/raw/electricity/electricity-exports-and-imports-monthly.csv,Publisher-reported average price preserved verbatim.
+electricity,Avoidable export costs,missing,CAD or CAD/MWh,hq_2025;cer_monthly,data/raw/electricity/,No monthly attributable costs avoided by reducing export sales found. Hydro-Québec purchase expenses and CER export value measure different quantities.
+electricity,Hydro-Québec annual reports,available,PDF,hq_2015–hq_2025,data/raw/electricity/hydro-quebec-annual-report-YYYY.pdf,Eleven English-language reports with annual corporate data and evolving definitions.
+gpu_pricing,H100 rental price per GPU-hour,available,USD/GPU-hour,lambda;runpod;together;coreprice,data/raw/gpu_pricing/h100-rental-prices.csv,Published asks rather than transaction records. CoreWeave node rates converted using stated GPU count.
+gpu_pricing,Provider,available,text,lambda;runpod;together;coreprice,data/raw/gpu_pricing/h100-rental-prices.csv,Four providers.
+gpu_pricing,GPU configuration,partial,GPU variant; GPUs/instance; GB,lambda;runpod;together;coreprice,data/raw/gpu_pricing/h100-rental-prices.csv,GPU variant available. Instance count and memory left blank when the quoted tier did not establish them.
+gpu_pricing,Currency,available,USD,lambda;runpod;together;coreprice,data/raw/gpu_pricing/h100-rental-prices.csv,Sample uses USD prices.
+gpu_pricing,Pricing arrangement,available,text,lambda;runpod;together;coreprice,data/raw/gpu_pricing/h100-rental-prices.csv,On-demand and selected spot/preemptible/reserved or starting offers.
+gpu_pricing,Observation date,available,ISO date,lambda;runpod;together;coreprice,data/raw/gpu_pricing/h100-rental-prices.csv,Single-day catalog observations dated 2026-11-25.
+server_specifications,GPUs per server,available,GPUs/server,nvidia;latif,data/raw/server_specifications/power-observations.csv,Eight in the specified DGX and measured HGX systems.
+server_specifications,Server idle power,available,kW,latif,data/raw/server_specifications/latif-et-al-2412.08602v2.pdf,Measured median of a single HGX node.
+server_specifications,Server busy power,available,kW,latif,data/raw/server_specifications/latif-et-al-2412.08602v2.pdf,Reported by workload and statistic. No universal busy value.
+server_specifications,Maximum rated server power,available,kW,nvidia,data/raw/server_specifications/power-observations.csv,Approximate DGX H100 manufacturer rating.
+server_specifications,Power usage effectiveness,benchmark,ratio,uptime;cologix,data/raw/server_specifications/power-observations.csv,Global survey and Québec operator specification. No measured PUE for a project facility.
+hardware_costs,Eight-GPU H100 server acquisition cost,benchmark,USD/server; USD/GPU,thinkmate;epoch,data/raw/hardware_costs/,Dated full-system vendor quote and historical release benchmark with bundled hardware allocation.
+hardware_costs,Networking costs,partial,USD/switch,directdial;epoch;coreweave,data/raw/hardware_costs/hardware-observations.csv,Posted switch component price and historical bundle. Installed fabric cost per node unavailable.
+hardware_costs,Installation costs,missing,USD/server,thinkmate;coreweave,data/raw/hardware_costs/hardware-observations.csv,No separately verified labour or commissioning quote for the H100 configuration.
+hardware_costs,Hardware useful life,benchmark,years,coreweave,data/raw/hardware_costs/hardware-observations.csv,Company accounting estimate for technology equipment. Physical H100 life unavailable.
+facility_costs,Data centre construction cost per kW of IT capacity,benchmark,USD/W; USD/kW,turner;turner_method,data/raw/facility_costs/facility-observations.csv,Canadian comparison market is Toronto. Source USD/W retained and exact scale documented.
+facility_costs,Cooling infrastructure costs,partial,percent,turner_method;cbre,data/raw/facility_costs/facility-observations.csv,US whole-project liquid-cooling premium and German mechanical share. Standalone Québec cooling cost unavailable.
+facility_costs,Electrical infrastructure costs,partial,percent,cbre;turner_method,data/raw/facility_costs/facility-observations.csv,German construction-share benchmark. Standalone Québec electrical cost unavailable.
+facility_costs,Facility useful life,benchmark,years,equinix;coreweave,data/raw/facility_costs/facility-observations.csv,Company accounting ranges for buildings and core systems or leasehold improvements.
+operating_costs,Staffing costs,partial,CAD/hour; USD million per 30 MW site/year,jobbank;wages_csv;kpmg,data/raw/operating_costs/operating-observations.csv,Québec occupation wages and US site benchmark. No site-level Québec payroll or staffing model.
+operating_costs,Maintenance costs,benchmark,USD million per 30 MW site/year,kpmg,data/raw/operating_costs/operating-observations.csv,US repair and maintenance benchmark. No Québec facility-specific costs found.
+operating_costs,Other recurring non-electricity costs,partial,USD million per 30 MW site/year,kpmg;coreweave,data/raw/operating_costs/operating-observations.csv,US security benchmark and corporate disclosures of relevant expense categories. No complete Québec breakdown.
+exchange_rates,Historical USD/CAD,available,CAD per USD,boc_noon;boc_daily,data/raw/exchange_rates/,Original daily files through 2026-11-25. Legacy noon and daily average overlap in early 2017. Nonbusiness dates may have no observation.
