@@ -6,3 +6,7 @@ cbre,Electrical share of total build cost,Germany presentation,2025,40,40,percen
 equinix,Buildings useful life,Equinix portfolio,2025,12,60,years,accounting estimate,Depreciation range
 equinix,Core systems useful life,Equinix portfolio,2025,3,40,years,accounting estimate,Depreciation range
 coreweave,Data centre equipment and leasehold improvements,CoreWeave portfolio,2025,,12,years,accounting estimate,Shorter of remaining lease term or estimated useful life of up to 12 years
+cushman,All-in greenfield development cost per capacity,United States and Canada,2026,17.6,17.6,USD million/MW,industry benchmark,"Average for most modern facilities, excludes chips and GPUs. Broader cost scope than construction index."
+cushman,Power infrastructure share of development costs,United States and Canada,2026,21,21,percent,industry benchmark,"Average share of greenfield development costs, wider geography than Québec."
+lacaisse,Announced senior financing,"Cologix MTL8, Montréal, Québec",2026-03-05,240,240,CAD million,observed corporate financing disclosure,Senior debt commitment; the amount does not establish the cost of construction.
+lacaisse,Announced site capacity,"Cologix MTL8, Montréal, Québec",2026-03-05,21,21,MW,observed corporate disclosure,Capacity as specified in the release; no cost per kW inferred from financing.
