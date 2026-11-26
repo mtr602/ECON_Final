@@ -1,0 +1,9 @@
+{
+  "financing_rates": [0, 0.05, 0.08, 0.10, 0.15],
+  "base_financing_rate": 0.08,
+  "reported_utilizations": [0.25, 0.50, 0.75, 1.00],
+  "rate_cd_underuse_threshold": 0.60,
+  "rate_cd_underuse_charge_cad_per_kw": 92.28,
+  "opex_benchmark_it_kw": 30000,
+  "source_model_commit": "fd6efcf"
+}
