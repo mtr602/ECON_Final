@@ -1,0 +1,15 @@
+source_id,provider,gpu_configuration,instance_gpu_count,gpu_memory_gb,pricing_arrangement,quoted_amount,currency,quoted_unit,amount_per_gpu_hour,price_basis,notes,observation_date,cad_per_gpu_hour
+lambda,Lambda,H100 SXM,8.0,80.0,Self-service on-demand,4.69,USD,GPU-hour,4.69,direct,,2026-11-25,6.668711
+lambda,Lambda,H100 SXM,4.0,80.0,Self-service on-demand,4.79,USD,GPU-hour,4.79,direct,,2026-11-25,6.810900999999999
+lambda,Lambda,H100 SXM,2.0,80.0,Self-service on-demand,4.89,USD,GPU-hour,4.89,direct,,2026-11-25,6.953091
+lambda,Lambda,H100 PCIe,1.0,80.0,Self-service on-demand,3.79,USD,GPU-hour,3.79,direct,,2026-11-25,5.3890009999999995
+runpod,Runpod,H100 SXM,,80.0,"Secure Cloud Pod, on-demand",4.39,USD,GPU-hour,4.39,direct,Billed per second; no commitment,2026-11-25,6.242140999999999
+runpod,Runpod,H100 PCIe,,80.0,"Secure Cloud Pod, on-demand",2.89,USD,GPU-hour,2.89,direct,Billed per second; no commitment,2026-11-25,4.109291
+runpod,Runpod,H100 SXM,,,"Community Cloud Pod, on-demand",2.69,USD,GPU-hour,2.69,direct,Starting price; billed per second,2026-11-25,3.8249109999999997
+runpod,Runpod,H100 PCIe,,,"Community Cloud Pod, on-demand",1.99,USD,GPU-hour,1.99,direct,Starting price; billed per second,2026-11-25,2.8295809999999997
+together,Together AI,HGX H100,,,"GPU Clusters, on-demand pay-as-you-go",3.99,USD,GPU-hour,3.99,direct,Cluster table,2026-11-25,5.673381
+together,Together AI,HGX H100,,,"GPU Clusters, preemptible",2.0,USD,GPU-hour,2.0,direct,Interruptible; availability widget showed checking,2026-11-25,2.8438
+together,Together AI,HGX H100,,,"GPU Clusters, 3–30 days reserved",3.69,USD,GPU-hour,3.69,direct,Cluster table,2026-11-25,5.246811
+together,Together AI,HGX H100,,,"GPU Clusters, 31–90 days reserved",3.45,USD,GPU-hour,3.45,direct,Cluster table,2026-11-25,4.905555
+coreprice,CoreWeave,HGX H100,8.0,80.0,"North America, on-demand",49.24,USD,instance-hour,6.155,quoted price / 8 GPUs,,2026-11-25,8.7517945
+coreprice,CoreWeave,HGX H100,8.0,80.0,"North America, spot",19.71,USD,instance-hour,2.46375,quoted price / 8 GPUs,Interruptible spot,2026-11-25,3.503206125

@@ -1,0 +1,8 @@
+parameter,value,unit,source_url,locator,evidence_type
+preferential_average,68.20,CAD/MWh,https://www.regie-energie.qc.ca/fr/participants/dossiers/R-4333-2026/doc/R-4333-2026-B-0004-Dem-Piece-2026_02_19.pdf,"B-0004 page 11 table 2, 6.82 cents/kWh",illustrative historical tariff average
+cd_average,130,CAD/MWh,https://www.regie-energie.qc.ca/fr/participants/dossiers/R-4333-2026/doc/R-4333-2026-B-0004-Dem-Piece-2026_02_19.pdf,"B-0004 page 11 table 2, 13 cents/kWh",illustrative proposed tariff average
+cd_demand,32.704,CAD/kW/month,https://www.regie-energie.qc.ca/fr/participants/dossiers/R-4333-2026/doc/R-4333-2026-B-0076-Dem-PieceRev-2026_08_04.pdf,"B-0076 page 4 section 5.54",proposed tariff provision
+cd_energy,0.08710,CAD/kWh,https://www.regie-energie.qc.ca/fr/participants/dossiers/R-4333-2026/doc/R-4333-2026-B-0076-Dem-PieceRev-2026_08_04.pdf,"B-0076 page 4 section 5.54",proposed tariff provision
+cd_min_authorized_kw,5000,kW,https://www.regie-energie.qc.ca/fr/participants/dossiers/R-4333-2026/doc/R-4333-2026-B-0076-Dem-PieceRev-2026_08_04.pdf,"B-0076 page 3 section 5.52",proposed tariff provision
+cd_ramp_excess,0.1742,CAD/kWh,https://www.regie-energie.qc.ca/fr/participants/dossiers/R-4333-2026/doc/R-4333-2026-B-0076-Dem-PieceRev-2026_08_04.pdf,"B-0076 page 4 section 5.54, above 110% projected demand during ramp-up",proposed tariff provision
+cd_winter_ratchet,0.75,ratio,https://www.regie-energie.qc.ca/fr/participants/dossiers/R-4333-2026/doc/R-4333-2026-B-0076-Dem-PieceRev-2026_08_04.pdf,"B-0076 page 4 section 5.56",proposed tariff provision
